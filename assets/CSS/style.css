@@ -1,3 +1,7 @@
+/* BODY */
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 /* NAVBAR */
 .navbar{
     text-align: center;
@@ -20,6 +24,7 @@
 #twitter {
     font-size: 40px;
     margin-right: 15px;
+    color: white;
 }
 #facebook:hover,
 #instagram:hover,
@@ -63,9 +68,9 @@
 }
 
 .mission p{
-    font-weight: 400;
-    font-size: 115%;
-    margin-bottom: 10px
+    font-weight: 500;
+    font-size: 125%;
+    margin-bottom: 10px;
 }
 
 .mission #last{
@@ -90,7 +95,7 @@
 .menu-container{
     text-align: center;
     padding: 30px;
-    background-color: orange;
+    background-color: white;
 }
 
 .menu-container img{
@@ -116,13 +121,14 @@ footer{
     background-color: darkcyan;
     display: flex;
     justify-content: center;
-    text-shadow: 0.5px 0.5px grey;
+    text-shadow: 0.3px 0.3px white;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 footer p{
     margin-bottom: 4px;
     font-weight: 500;
+    color: #222;
 }
 
 #always {
@@ -224,34 +230,71 @@ footer p{
     padding: 40px;
     size: 100%;
     margin-left: 325px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 110%;
   }
 
 /* LOCATION CONTAINER */
 
 .location img{
-    margin: 20px;
-    padding: 20px;
-    float: left;
+    margin-bottom: 30px;
+    margin-left: 470px;
 }
 .location h2 {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    float: left;
-    margin-left: 15px;
-    margin-bottom: 20px;
+    text-align: center;
     padding: 15px;
 
 }
 .location h3{
-    float: left;
+    text-align: center;
     font-size: 130%;
-    margin-left: 30px;
-    margin-bottom: 40px;
 }
 .location h4{
-    float: left;
-    margin-left: 90px;
+    text-align: center;
     font-weight: 500;
     font-size: 120%;
+    margin-bottom: 20px;
 }
+
+
+/* RETURN TO TOP ICON */
+#return-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.7);
+    width: 50px;
+    height: 50px;
+    display: block;
+    text-decoration: none;
+    -webkit-border-radius: 35px;
+    -moz-border-radius: 35px;
+    border-radius: 35px;
+    display: none;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+#return-to-top:hover {
+    background: rgba(0, 0, 0, 0.9);
+}
+#return-to-top:hover i {
+    color: #fff;
+    top: 5px;
+}
+i{color: #444;}
