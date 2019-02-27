@@ -52,7 +52,8 @@
 .mission {
     text-align: center;
     padding: 30px;
-    background-color: peachpuff;
+    background-color: darksalmon;
+    /* size:  */
 }
 
 .mission h1 {
@@ -63,7 +64,17 @@
 
 .mission p{
     font-weight: 400;
-    font-size: 115%
+    font-size: 115%;
+    margin-bottom: 10px
+}
+
+.mission #last{
+    margin-bottom: 30px;
+}
+
+iframe{
+    height: 50%;
+    width: 50%;
 }
 
 /* MENU CONTAINER */
@@ -75,7 +86,7 @@
     text-shadow: .8px .8px white;
 }
 .menu{
-    background-color: peachpuff;
+    background-color: white;
 }
 .menu-container{
     text-align: center;
@@ -107,6 +118,7 @@ footer{
     display: flex;
     justify-content: center;
     text-shadow: 0.5px 0.5px grey;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 footer p{
@@ -131,9 +143,9 @@ footer p{
     margin-top: 5px;
     color: #222;
 }
-.fa-envelope:hover,
-.fa-github:hover,
-.fa-linkedin:hover {
+#github:hover,
+#email:hover,
+#linkedin:hover {
     color: white;
 }
 
@@ -203,16 +215,44 @@ footer p{
 .founders img{
     position: absolute;
     margin-left: 50px;
-    margin-top: 90px;
+    margin-top: 40px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #bio {
     /* margin-left: 280px; */
-    margin: 20px;
-    padding: 50px;
+    margin: 10px;
+    padding: 40px;
     size: 100%;
     margin-left: 325px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 120%;
+    font-size: 110%;
   }
+
+/* LOCATION CONTAINER */
+
+.location img{
+    margin: 20px;
+    padding: 20px;
+    float: left;
+}
+.location h2 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    float: left;
+    margin-left: 15px;
+    margin-bottom: 20px;
+    padding: 15px;
+
+}
+.location h3{
+    float: left;
+    font-size: 130%;
+    margin-left: 30px;
+    margin-bottom: 40px;
+}
+.location h4{
+    float: left;
+    margin-left: 90px;
+    font-weight: 500;
+    font-size: 120%;
+}
