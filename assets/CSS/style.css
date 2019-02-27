@@ -72,10 +72,9 @@
     margin-bottom: 30px;
 }
 
-iframe{
-    height: 50%;
-    width: 50%;
-}
+/* .iframe{
+    size: 150%;
+} */ 
 
 /* MENU CONTAINER */
 .menu h1{
